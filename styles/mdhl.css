@@ -1,0 +1,112 @@
+* 
+{
+    font-family: cursive;
+}
+
+.titulo-principal
+{
+    color: black;
+    font-size: 40px;
+    margin: 23px 2px -29px -2px;
+}
+
+aside .logo
+{
+    width: 180px;
+    background: beige;
+    border-radius: 56px;
+    transition: all 1s;
+}
+
+
+.banner
+{
+    width: 100%;
+    margin: 17px 0px -27px 0px;
+}
+
+.subtitulo
+{
+    text-align: center;
+    margin-top: -1px;
+    border: 2px solid black;
+}
+
+.top-button
+{
+    font-size: 17px;
+    text-align: end;
+    margin: -11px 19px;
+}
+
+.top-button a
+{
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+
+div
+{
+    width: 100%;
+    height: 60vh;
+    background-image: url("../assets/design1_image2.jpg");
+    background-size: cover;
+}
+
+/* hover para que cuando pase el cursor del mouse por encima del boton haga algo. En este caso cambia de color */
+.top-button a:hover
+{
+    background-color: rgb(93, 238, 238);
+}
+
+
+/* active para que cuando haga clik sobre el boton esta haga algo. En este caso se achica */
+.top-button a:active   
+{
+    font-size: 14px;
+}
+
+a[href="#"]
+{
+    background: green !important; 
+}
+
+.top-button a
+{
+    background: #2196F3;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: 4px 3px 6px black;
+}
+
+.logo-contenedor
+{
+    display: inline-block;
+}
+
+.al-costado
+{
+    margin: -206px 0px 4px 213px;
+}
+
+.imagen-costado
+{
+    margin: 0px 229px;
+}
+
+footer{
+    text-align: center;
+}
+
+.imagen {
+    width: 70px; /* Ancho deseado */
+    height: auto; /* Altura ajustada automáticamente para mantener las proporciones */
+    display: inline-block;
+    margin-right: 90px;
+    transition: all 1s;
+    position: static;
+}
+
+
