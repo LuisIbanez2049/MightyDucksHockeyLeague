@@ -1,0 +1,47 @@
+.tabla1 table,.tabla1 tr, .tabla1 td, .tabla1 th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td,th{
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: rgba(51, 130, 194, 0.63);
+}
+
+tfoot tr:first-child{
+    background-color: rgba(51, 130, 194, 0.63);
+}
+
+tbody tr:nth-child(2n +1){
+    background-color: rgba(152, 166, 179, 0.63);
+}
+tbody tr:nth-child(2n){
+    background-color: rgba(207, 108, 211, 0.63);
+}
+.tabla1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tabla2
+{
+    margin-top: 40px;
+}
+
+#contenedor
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.subrayado
+{
+    text-decoration: underline;
+}

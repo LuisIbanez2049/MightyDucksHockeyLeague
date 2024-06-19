@@ -1,6 +1,7 @@
 * 
 {
     font-family: cursive;
+    padding: 0px;
 }
 
 .titulo-principal
@@ -10,9 +11,10 @@
     margin: 23px 2px -29px -2px;
 }
 
-aside .logo
+.logo
 {
-    width: 180px;
+    /* width: 180px;
+     */
     background: beige;
     border-radius: 56px;
     transition: all 1s;
@@ -50,7 +52,7 @@ aside .logo
     
 }
 
-div
+.banner
 {
     width: 100%;
     height: 60vh;
@@ -86,20 +88,20 @@ a[href="#"]
     box-shadow: 4px 3px 6px black;
 }
 
-.logo-contenedor
+/* .logo-contenedor
 {
     display: inline-block;
-}
+} */
 
-.al-costado
+/* .al-costado
 {
     margin: -206px 0px 4px 213px;
-}
+} */
 
-.imagen-costado
+/* .imagen-costado
 {
     margin: 0px 229px;
-}
+} */
 
 footer{
     text-align: center;
@@ -119,3 +121,114 @@ footer{
     transform: rotate(360deg) translateY(-20px) scale(1.2); 
 }
 
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#contenedorMain
+{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-top: 30px;
+    
+}
+
+#div4
+{
+    width: 320px;
+    /* height: 200px; */
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#div4 img
+{
+    width: 260px;
+    height: auto;
+}
+
+#div5
+{
+    width: 200px;
+    /* height: 200px; */
+    /* border: 1px solid black; */
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#div6
+{
+    width: 100%;
+    height: 60%;
+    /* border: 1px solid black; */
+
+}
+
+#div7
+{
+    width: 100%;
+    height: 40%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div7 img
+{
+    width: 300px;
+    height: auto;
+}
+
+#divimg
+{
+    width: 358px;
+    height: 234px;
+    /* border: 1px solid black; */
+    background-image: url(../assets/hoky.jpg);
+}
+.al-costado
+{
+    font-size: 21px;
+    margin-left: 50px;
+    margin-top: 31px;
+}
+
+.espaciado
+{
+    margin-top: 10px;
+}
+
+.al-costadoAbout
+{
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 31px;
+}
+
+.espaciadoAbout
+{
+    margin-top: -17px;
+}
+
+#divimgAbout
+{
+    width: 358px;
+    height: 234px;
+    /* border: 1px solid black; */
+    background-image: url(../assets/hockey2PS.jpg);
+}
+
+#divimgContact
+{
+    width: 358px;
+    height: 234px;
+    /* border: 1px solid black; */
+    background-image: url(../assets/hockey3PS.jpg);
+}
