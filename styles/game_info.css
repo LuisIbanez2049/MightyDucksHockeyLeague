@@ -45,3 +45,30 @@ tbody tr:nth-child(2n){
 {
     text-decoration: underline;
 }
+
+footer, .contenedor, .tabla2
+{
+    width: 100%;
+}
+
+.footerTabla
+{
+    width: 100%;
+}
+
+.phone
+{
+    width: 50%;
+    text-align: end;
+}
+
+.mail
+{
+    width: 50%;
+    text-align: start;
+}
+
+.centrar
+{
+    padding-left: 117px;
+}
