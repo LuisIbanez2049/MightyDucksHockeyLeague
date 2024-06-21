@@ -72,3 +72,37 @@ footer, .contenedor, .tabla2
 {
     padding-left: 117px;
 }
+
+.containerMaps
+{
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.containerMaps div
+{
+    margin-top: 10px;
+    width: 578px;
+    height: 478px;
+    /* border: 1px solid black; */
+}
+
+h4
+{
+    text-align: center;
+    font-size: 23px;
+}
+iframe
+{
+
+    width: 544px;
+    height: 370px;
+    margin-left: 14px;
+    border-radius: 65px;
+    text-shadow: 2px 2px 5px black;
+    
+}

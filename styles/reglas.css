@@ -34,3 +34,9 @@ h2, h3, p, li, dd
 {
     font-family: serif;
 }
+
+footer p
+{
+    font-family: cursive;
+    margin-bottom: 12px;
+}

@@ -42,7 +42,7 @@
 {
     font-size: 17px;
     text-align: end;
-    margin: -11px 19px;
+    margin: -24px 19px;
 }
 
 .top-button a
@@ -121,6 +121,10 @@ footer{
     transform: rotate(360deg) translateY(-20px) scale(1.2); 
 }
 
+footer p
+{
+    font-size: 17px;
+}
 /* -------------------------------------------------------------------------------------------------------------------------------------------- */
 
 #contenedorMain
